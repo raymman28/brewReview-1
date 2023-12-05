@@ -29,13 +29,23 @@ Brewery Review System is a web application that allows users to search for brewe
 
 ## Technologies Used
 
-- Frontend: [Your chosen frontend framework/library]
-- Backend: [Your chosen backend framework]
-- Database: [Your chosen database]
-- Hosting: [Hosting service you used]
+- Frontend: React.js, Javascript,Css
+- Backend: Node.js
+- Database: MongoDB
+- Hosting: Vercel
 
 ## Setup and Installation
 
 1. Clone the repository:
    ```bash
-   git clone [GitHub repository URL]
+   git clone https://github.com/Rayman-Sodhi/brewReview
+2. CD Frontend
+   ```npm start
+   Runs the app in the development mode.
+   Open http://localhost:3000 to view it in your browser.
+
+   The page will reload when you make changes.
+   You may also see any lint errors in the console.
+3.CD Backend
+   ```node server.js
+    Runs the Server .
