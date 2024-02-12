@@ -48,6 +48,7 @@ app.get('/home/brewery/:id/rating', async (req, res) => {
     }
 });
 
+app.get('/',(req,res)=>res.status(200).json({message: 'hello world'}))
 
 app.post('/', (req, res) => {
   UserModel.create(req.body)
