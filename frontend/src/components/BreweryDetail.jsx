@@ -14,7 +14,7 @@ const BreweryDetail = () => {
         const breweryResponse = await axios.get(`https://api.openbrewerydb.org/v1/breweries/${id}`);
         setBrewery(breweryResponse.data);
 
-        const reviewsResponse = await axios.get(`http://localhost:3001/home/brewery/${id}/rating`);
+        const reviewsResponse = await axios.get(`https://brew-review-ten.vercel.app/home/brewery/${id}/rating`);
         setReviews(reviewsResponse.data);
 
         setLoading(false);
