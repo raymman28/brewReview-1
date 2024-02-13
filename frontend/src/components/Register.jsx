@@ -18,7 +18,7 @@ const Register = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:3001/', { name, email, password });
+      const response = await axios.post('https://brew-review-ten.vercel.app/', { name, email, password });
       console.log(response.data); // Assuming the server sends back data
 
       navigate('/login');
