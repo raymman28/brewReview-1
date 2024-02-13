@@ -20,7 +20,7 @@ const Rating = () => {
     e.preventDefault();
 
     try {
-      await axios.post(`http://localhost:3001/home/brewery/${id}/rating`, { id, rating, review });
+      await axios.post(`https://brew-review-ten.vercel.app/home/brewery/${id}/rating`, { id, rating, review });
 
       // Redirect to brewery detail page after successful submission
       navigate(`/home/brewery/${id}`);
